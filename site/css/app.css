@@ -1,0 +1,175 @@
+body{
+   background-color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family:trebuchet, helvetica, sans-serif;
+    background-color: #55ACEE;
+    padding: 5px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    padding :2px;
+    border: 1px black solid;
+}
+a:hover{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding :2px;
+    border: 1px black solid;
+}
+
+
+.formulaire{
+    background-color: #fff;
+    padding: 20px 10px 0 10px;
+    border-radius: 10px;
+    position: absolute;
+   top:100%;
+   left:50%;
+   width:300px; /* A toi de donner la bonne largeur */
+   height:200px; /* A toi de donner la bonne hauteur */
+   margin-left:-150px; /* -largeur/2 */
+   margin-top:-100px; /* -hauteur/2 */
+   opacity: 0;
+}
+
+.inpout{
+    border-radius: 2.5px;
+    border-top : none;
+    border-left : none;
+    border-right : none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.btn{
+    border-radius: 50px;
+    border: none;
+    background-color: #57cc45;
+    height: 30px;
+    width: 120px;
+}
+
+.btn:hover{
+
+    background-color: #439c35;
+
+}
+
+.t_logout{
+    font-size: 12px;
+}
+
+.error{
+    color: red;
+}
+
+.container{
+    height: 600px;
+    position: relative;
+    left:50%;
+    width:500px; /* A toi de donner la bonne largeur */
+    margin-left:-250px; /* -largeur/2 */
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.messages{
+    height: 100%;
+   width: 490px;
+   margin-left:5px;
+   overflow-y:auto;
+   overflow-x: hidden;
+}
+
+.message{
+    padding-left:5px;
+    padding-bottom:0.5px;
+    margin-bottom:2px;
+    position: relative;
+    width: 470px;
+    bottom: 0;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+.enter_message {
+    position: relative;
+    left:50%;
+    width:510px; /* A toi de donner la bonne largeur */
+    margin-left:-250px; /* -largeur/2 */
+    bottom: 0;
+    width: 510px;
+}
+
+#contente{
+    width: 420px;
+    height: 20px;
+    margin-right:0px; 
+    padding-left: 100px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+#envoyer{
+    width: 80px;
+    height: 25px;
+    margin-left:0px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.navbar{
+    width : 100%px; 
+    padding: 0 20px 0 20px;
+}
+
+
+
+.logout_btn{
+    padding: 2px;
+    border-radius: 2px; 
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    font-size: 100%;
+    background-color: white;
+}
+
+
+aside{
+    position: absolute;
+    float: left;
+}
+
+
+li{
+
+    list-style-type: none; /* on annule la puce par défaut */
+    background-image: url(../img/button-green.png); /* on affiche l'image souhaitée */
+    background-repeat: no-repeat; /* on annule la répétition par défaut */
+    background-position: left; /* on positionne où l'on veut */
+    background-size: contain;
+    padding-left: 20px; /* pour éviter la superposition du contenu */
+
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(235, 219, 219);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+

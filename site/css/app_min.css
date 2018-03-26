@@ -1,0 +1,93 @@
+body{
+    background-color: white;
+     padding: 0px;
+     margin: 0px;
+ }
+ 
+ .formulaire{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:175px; /* A toi de donner la bonne largeur */
+    height:200px; /* A toi de donner la bonne hauteur */
+    margin-left:-87.5px; /* -largeur/2 */
+    margin-top:-100px; /* -hauteur/2 */
+ }
+ 
+ .inpout{
+     border-radius: 2.5px;
+     border-top : none;
+     border-left : none;
+     border-right : none;
+     background-color: transparent;
+     width: 200px;
+ }
+ 
+ .btn{
+     border-radius: 5px;
+     width: 200px;
+ }
+ 
+ .error{
+     color: red;
+ 
+    }
+
+ .container{
+    height: 600px;
+    position: relative;
+    left:50%;
+    width:175px; /* A toi de donner la bonne largeur */
+    margin-left:-87.5px;/* -largeur/2 */
+    margin-top: 200px;
+}
+
+ .messages{
+    height: 100%;
+   
+ overflow:auto;
+ overflow-y:hidden;
+ overflow-x:hidden;
+}
+
+.message{
+    position: relative;
+    bottom: 0;
+}
+
+.enter_message {
+    bottom: 0;
+    width: 100%;
+}
+
+#contente{
+    width: 60%;
+    margin-right:0px; 
+}
+
+#envoyer{
+    width: 30%;
+    margin-left:0px;
+}
+
+.navbar{
+    width : 100%px; 
+    padding: 0 20px 0 20px;
+}
+
+.logout{
+    
+}
+
+.logout_btn{
+    padding: 2px;
+    border-radius: 2px; 
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    font-size: 100%;
+    background-color: white;
+}
+
+
+aside{
+    
+}
